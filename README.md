@@ -206,6 +206,6 @@ This is similar to the getFirstNCharacters method, except now you want the last 
 
 This is the inverse of getLastNCharacters. Similar to how removeFirstNCharacters was the inverse of getFirstNCharacters.
 
-### frontBack(String str)
+### reverse(String str)
 
 You need to remove the first character then remove the last character, then concatenate them back together.
