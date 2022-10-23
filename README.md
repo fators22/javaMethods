@@ -1,8 +1,8 @@
-# Lab 1.2 MethodDrills
+# Lab 2 Java Methods
 
 ## Instructions
 
-Complete each of the methods in MethodDrills.java so that they do what their comments say they should do.
+Complete each of the methods in Methods.java so that they do what their comments say they should do.
 
 Write code in the main method to test your methods as you complete them. It is recommended that you write one method, test it, fix it, then move on to another method.
 
@@ -66,14 +66,17 @@ If you are getting compile errors for your test code in this method then check t
 
 ## Grading
 
-You must *correctly complete at least 8* of these methods to pass this lab. If you correctly complete *all* of these methods, then you will earn 1 Above & Beyond point.
+You must *correctly complete at least 4* of these methods to pass this lab. If you correctly complete *all* of these methods, then you will earn 1 Above & Beyond point.
 
 These methods will be tested by checking their output against several test cases. If you method fails any of those test cases it will be deemed *incorrect*.
 
 For example: Consider the following method:
 
 ```
-int subtract(int a, int b)
+int subtract(int a, int b){  
+       return a-b;
+       }
+
 ```
 
 This method should return the difference between a and b so the following method call should result in the specified value:
