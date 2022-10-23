@@ -324,7 +324,7 @@ public class Methods
     *   @param String str The string to swap the first and last characters of
     *   @return String str with the first and last characters swapped
     */
-   public static String frontBack(String str)
+   public static String reverse(String str)
    {
      return null;
    }
